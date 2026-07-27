@@ -2,10 +2,10 @@
 
 :root{
     --branco: white;
-    --cor-de-fundo: #00162E;
-    --fundo-senha: #00244D;
-    --fundo-texto: #001E40;
-    --borda: #0075FF;
+    --cor-de-fundo: #3a0097;
+    --fundo-senha: hsl(266, 96%, 21%);
+    --fundo-texto: #6f00ff;
+    --borda: #933af8;
     --roboto: 'Roboto', sans-serif;
     --roboto-mono: 'Roboto Mono', monospace;
 }
@@ -91,9 +91,19 @@ body{
 }
 
 .parametro-senha__botao{
-
+background-color: var(--cor-de-fundo);
+color: var(--branco);
+border: 2px solid var(--borda);
+padding:24px;
+font-size: 24px;
+cursor: pointer;
 }
 .parametro-senha__texto{
+border-top: 2px solid var(--borda);
+border-bottom: 2px solid var(--borda);
+padding: 24px;
+margin: 0px;
+]
 
 }
 
